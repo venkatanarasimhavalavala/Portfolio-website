@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*body {
+  width: 100%;
+  background: linear-gradient(45deg, #31363F, black, #222831, black);
+  background-size: 300% 300%;
+  animation: color 5s ease-in-out infinite;
+  border-top: 2px solid black;
+}
+
+@keyframes color {
+  0% {
+      background-position: 0 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0 50%;
+  }
+}*/
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+}
+.brand_n{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-left: 5px;
+  padding-left: 5px;
+  color:#43d7ff;
+}
+
+.brand_n:hover{
+  color: #43d7ff;
+}
+.navigation_n{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.nav_n{
+  color:#43d7ff;
+}
+.nav_n:hover{
+  color:white;
+  padding-bottom: 0px;
+  border-bottom: 2px solid white;
+}
+.image_n{
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  border:3px solid #43d7ff;
+  border-radius: 30px;
+}
+.text_n{
+  margin-top: 200px;
+}
+.name0_n{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color:white;
+}
+.name1_n{
+  color: white;
+}
+.auto-type{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color:#43d7ff;
+  margin-left: 10px;
+}
+.name2_n{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color:#43d7ff;
+  justify-items: center;
+}
+ul {
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .example-2 .icon-content a:hover {
+    color: white;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  
+  .example-2 .icon-content a[data-social="linkedin"] .filled,
+  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+  }
+  
+  .example-2 .icon-content a[data-social="github"] .filled,
+  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+  }
+  .example-2 .icon-content a[data-social="instagram"] .filled,
+  .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+    background: linear-gradient(
+      45deg,
+      #405de6,
+      #5b51db,
+      #b33ab4,
+      #c135b4,
+      #e1306c,
+      #fd1f1f
+    );
+  }
+  .example-2 .icon-content a[data-social="youtube"] .filled,
+  .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+    background-color: #ff0000;
+  }
+   .profile_n{
+    margin-top: 25px;
+   }
+   button {
+    padding: 1.3em 2em;
+    margin-top: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #43d7ff;
+    box-shadow: 0px 15px 20px rgba(243, 53, 53, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  .image1_n{
+    width: 500px;
+    height: 500px;
+    margin-top: 90px;
+    border:3px solid #43d7ff;
+    border-radius: 30px;
+  }
+  .text1_n{
+    margin-top: 200px;
+    text-align: left;
+  }
+  .about0_n{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color:white;
+  }
+  .about1_n{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color:#43d7ff;
+  }
+  .about2_n{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color:#43d7ff;
+  }
+  .about3_n{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color:white;
+  }
+  
+  .mh-skills .mh-professional-skill{
+    padding-right: 80px;
+    color: white;
+  }
+  .mh-skills .mh-professional-skill h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align:center;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: 'Poppins',sans-serif;
+    color : white;
+  }
+  .mh-skills .mh-professional-skill h3 .skills0_n{
+    font-size: 30px;
+    line-height: 40px;
+    text-align:center;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: 'Poppins',sans-serif;
+    color : #43d7ff;
+  }
+  .mh-professional-skill{
+    padding-left:  20%;
+    color: white;
+  }
+
+.candidatos{
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+.candidatos .parcial{
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.candidatos .parcial .info{
+  position: relative;
+  font-family: 'Poppins',sans-serif;
+
+}
+.candidatos .parcial .info .nome{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.9;
+  font-family: 'Poppins',sans-serif;
+}
+.candidatos .parcial .info .percentage-num{
+  position:  absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+.candidatos .parcial .progressBar{
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 39px 0 2px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: transparent(0,0,0,0.5);
+}
+
+.candidatos .parcial .percentagem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #43d7ff;
+  transition: 3s all;
+  animation-duration: 3s;
+  animation-name: animateProgress;
+  font-family: 'Poppins',sans-serif;
+}
+@keyframes animateProgress{
+  from{
+    width: 0;
+  }
+}
+.contact0_n{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.contact1_n{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Poppins',sans-serif;
+  color : #43d7ff;
+}
+.contact2_n{
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins',sans-serif;
+  color : #43d7ff;
+}
+.contact3_n{
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: 'Poppins',sans-serif;
+  color : #43d7ff;
+}
+.fa-facebook{
+  font-size: 20px;
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: white;
+}
+.fa-phone{
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: white;
+}
+.icon_n{
+  margin-top: 0px;
+  font-size: 30px;
+}
+.icon_n a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color:white;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.icon_n a:hover{
+  color:#43d7ff;
+  transform: translateY(-5px)
+}
